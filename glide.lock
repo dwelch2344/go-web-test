@@ -1,0 +1,62 @@
+hash: 9d8a16af43147c990c2432cb04e7a8a901a943b0c7c6a2729a69a945c7999288
+updated: 2017-02-28T18:10:08.489884374-07:00
+imports:
+- name: github.com/asaskevich/govalidator
+  version: edd46cdac249b001c7b7d88c6d43993ea875e8d8
+- name: github.com/confluentinc/confluent-kafka-go
+  version: a9b5c269c66e9a2eb5f195563b2f01e65a84c527
+  subpackages:
+  - kafka
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: github.com/derekdowling/go-json-spec-handler
+  version: 0206f415abb08c33ee02aa7e53dbb94e39c99cae
+  subpackages:
+  - goji2-logger
+  - jsh-api
+  - jsh-api/store
+- name: github.com/derekdowling/go-stdlogger
+  version: cfa80b78b82f8d241ceece0b733b1161bb6a885c
+- name: github.com/eapache/go-resiliency
+  version: 6800482f2c813e689c88b7ed3282262385011890
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: bb955e01b9346ac19dc29eb16586c90ded99a98c
+- name: github.com/eapache/queue
+  version: ded5959c0d4e360646dc9e9908cff48666781367
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/gorilla/websocket
+  version: 3ab3a8b8831546bd18fd182c20687ca853b2bb13
+- name: github.com/klauspost/crc32
+  version: cb6bfca970f6908083f26f39a79009d608efd5cd
+- name: github.com/pierrec/lz4
+  version: 90290f74b1b4d9c097f0a3b3c7eba2ef3875c699
+- name: github.com/pierrec/xxHash
+  version: 5a004441f897722c627870a981d02b29924215fa
+  subpackages:
+  - xxHash32
+- name: github.com/rcrowley/go-metrics
+  version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
+- name: github.com/Shopify/sarama
+  version: 0fb560e5f7fbcaee2f75e3c34174320709f69944
+- name: github.com/zenazn/goji
+  version: bf843a174a08e846246b8945f8a9a853d84a256a
+  subpackages:
+  - web/mutil
+- name: goji.io
+  version: 8110ccbc05240c40d43ccb004e0542b3bcbf27da
+  subpackages:
+  - internal
+  - pat
+  - pattern
+- name: golang.org/x/net
+  version: 28273ec927bee3bea305f112fc28ceee575ea893
+  subpackages:
+  - context
+testImports: []
